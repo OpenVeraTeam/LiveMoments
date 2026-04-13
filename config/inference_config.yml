@@ -1,0 +1,16 @@
+SD3_weight_path: "/path/to/your/sd3"
+
+pretrained_weight_path: "/path/to/pretrained/livemoments_weight"
+motion_encoder_weight_path: "/path/to/pretrained/motion_encoder_weight.pt"
+prompt_embeds_path: "/path/to/your/prompt_embeds.pt"
+pooled_prompt_embeds_path: "/path/to/your/pooled_prompt_embeds.pt"
+
+raft_path: "/path/to/your/RAFT"
+raft_weight_path: "/path/to/RAFT_weight.pth"
+
+lr_path: "/path/to/your/lr"
+ref_path: "/path/to/your/ref"
+ref_lr_path: "/path/to/your/ref_lr"
+
+lr_res: 1080.0
+ref_res: 3072.0

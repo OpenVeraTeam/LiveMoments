@@ -62,7 +62,7 @@ pip install -r requirements.txt
 - Clone the official RAFT repository from [GitHub](https://github.com/princeton-vl/RAFT) and download the pretrained weights (Sintel).
 > ⚠️ Note: When using RAFT, we recommend commenting out the lines in `/path/to/your/RAFT/core/raft.py` that normalize the input image tensors to the range `[-1, 1]`.
 
-- Download our pretrained weights from [HuggingFace](https://github.com/OpenVeraTeam/LiveMoments).
+- Download our pretrained weights from [HuggingFace](https://huggingface.co/Clara-7/LiveMoments/tree/main).
 
 You can put the model weights in `checkpoint/`.
 
@@ -113,7 +113,7 @@ python infer/infer_LiveMoments.py \
 
 ## ✅ <a name="TODO"></a>TODO
 - [x] Release inference code  
-- [ ] Release pretrained checkpoints  
+- [x] Release pretrained checkpoints  
 - [ ] Release evaluation scripts  
 - [ ] Release test datasets 
 
